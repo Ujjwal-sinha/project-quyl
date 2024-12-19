@@ -3,7 +3,7 @@ import { Student } from '@/types/student';
 export const mockStudents: Student[] = [
   {
     id: '1',
-    name: 'Anshuman Kashyap',
+    name: 'Vishal kumar',
     cohort: 'AY 2024-25',
     courses: ['CBSE 9 Science', 'CBSE 9 Math'],
     joinedAt: '2024-11-17T10:00:00Z',
@@ -12,7 +12,7 @@ export const mockStudents: Student[] = [
   },
   {
     id: '2',
-    name: 'Bansi Dadhaniya',
+    name: 'Avani',
     cohort: 'AY 2024-25',
     courses: ['CBSE 9 Science', 'CBSE 9 Math'],
     joinedAt: '2024-11-17T10:00:00Z',
@@ -21,7 +21,7 @@ export const mockStudents: Student[] = [
   },
   {
     id: '3',
-    name: 'Chandrika Valotia',
+    name: 'Denmark',
     cohort: 'AY 2024-25',
     courses: ['CBSE 9 Science', 'CBSE 9 Math'],
     joinedAt: '2024-11-17T10:00:00Z',
