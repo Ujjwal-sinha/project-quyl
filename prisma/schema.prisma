@@ -1,0 +1,26 @@
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("https://crbgrshmnzmnglqohfpi.supabase.co")
+}
+
+model Student {
+  id        String   @id @default(cuid())
+  name      String
+  cohort    String
+  courses   Course[]
+  joinedAt  DateTime @default(now())
+  lastLogin DateTime @updatedAt
+  status    Boolean  @default(true)
+}
+
+model Course {
+  id       String    @id @default(cuid())
+  name     String
+  students Student[]
+}
